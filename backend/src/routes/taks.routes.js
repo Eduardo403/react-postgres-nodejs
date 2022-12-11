@@ -14,7 +14,7 @@ routes.get("/task/:id", getTask);
 
 routes.post("/tasks", postTasks);
 
-routes.patch("/task/edite/:id", patchTasks);
+routes.put("/task/edite/:id", patchTasks);
 
 routes.delete("/task/:id", deleteTasks);
 
